@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script defer src="congtrunhanchia.js">
+  </script>
+  <link rel="stylesheet" type="text/css" href="congtrunhanchia.css" />
+</head>
+<body>
+  <h1>Be tap tinh</h1>
+  <div id="calculator">
+    <div id="firstNumber">So thu nhat</div>
+    <div id="firstInput"><input type="text" name="number1" id="number1" oninput="getValue()"></div>
+    <div id="add"><input type="radio" name="operation" id="Cong">Cong</div>
+    <div id="subtract"><input type="radio" name="operation" id="Tru">Tru</div>
+    <div id="secondNumber">So thu hai</div>
+    <div id="secondInput"><input type="text" name="number2" id="number2" oninput="getValue()"></div>
+    <div id="multiply"><input type="radio" name="operation" id="Nhan">Nhan</div>
+    <div id="divide"><input type="radio" name="operation" id="Chia">Chia</div>
+    <div id="resultText">Ket qua</div>
+    <div id="resultBox"><input type="text" name="output" id="output" disabled></div>
+    <div id="submit"><button style="width: 100px;">Tinh</button></div>
+    <div id="notificationText">Thong bao</div>
+    <div id="notification"></div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,75 @@
+div {
+    padding: 30px;
+  }
+  
+  #calculator {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+  }
+
+  #firstNumber {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  #firstInput {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  #add {
+    grid-column: 3;
+    grid-row: 1;
+  }
+
+  #subtract {
+    grid-column: 4;
+    grid-row: 1;
+  }
+
+  #secondNumber {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  #secondInput {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  #multiply {
+    grid-column: 3;
+    grid-row: 2;
+  }
+
+  #divide {
+    grid-column: 4;
+    grid-row: 2;
+  }
+  
+  #resultText {
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  #resultBox {
+    grid-column-start: 2;
+    column-span: 2;
+    grid-row: 3;
+  }
+
+  #submit {
+    grid-column: 4;
+    grid-row: 3;
+  }
+
+  #notificationText {
+    grid-row: 4;
+    grid-column: 1;
+  }
+
+  #notification {
+    grid-row: 4;
+    grid-column: 2/5;
+  }
